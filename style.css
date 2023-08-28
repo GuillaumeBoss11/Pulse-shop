@@ -1,0 +1,21 @@
+.bande-en-haut {
+    color:rgb(0, 0, 0);
+    display: block;
+    height: 150px; /* Hauteur de la bande */
+    background-color: yellow; /* Couleur de la bande */
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1; /* Ajustez selon vos besoins */
+    text-align: center;
+}
+
+p {
+    margin-top: 160px;
+}
+
+.text-en-haut {
+    margin-top: 50px;
+    font-size: 50px;
+}
